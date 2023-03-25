@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="30dp"
+        android:background="@drawable/shape">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2dc2ba"
+            android:text="Edit your data"
+            android:id="@+id/txt"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt"
+            android:background="@drawable/shape"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="User Name"
+            android:id="@+id/edit1"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit1"
+            android:background="@drawable/shape"
+            android:padding="10dp"
+            android:hint="Email"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edit2"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm"
+            android:background="@drawable/shape"
+            android:backgroundTint="#2dc2ba"
+            android:textColor="#FFF"
+            android:id="@+id/confirm"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/edit2"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+</RelativeLayout>
